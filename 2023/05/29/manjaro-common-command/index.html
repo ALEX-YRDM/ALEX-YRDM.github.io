@@ -1,0 +1,446 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  
+    <link rel="icon" href="/img/favicon.png">
+  
+  
+      <meta name="author" content="yrdm">
+  
+  
+  
+  
+  
+    <link rel="alternate" href="/atom.xml " title="Welcome to yrdm&#39;s blog" type="application/atom+xml">
+  
+
+  
+
+  <title>manjaro Linux基本操作 | Welcome to yrdm&#39;s blog</title>
+
+  
+
+  
+
+  
+
+  <link rel="stylesheet" href="/css/style.css" >
+  <link rel="stylesheet" href="/css/partial/dark.css" >
+
+  
+  
+  
+
+  
+    
+      <link rel="stylesheet" href="/css/partial/highlight/atom-one-light.css">
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css">
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css">
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/a2396837/CDN@latest/css/iconfont.css">
+    
+  
+
+  
+    <script src="/js/todark.js"></script>
+    
+<meta name="generator" content="Hexo 6.3.0"></head>
+</html>
+    
+<div class="nav index" style="height: 60px;">
+    <div class="title animated fadeInDown">
+        <div class="layui-container">
+                <div class="nav-title"><a href="/" title="Welcome to yrdm&#39;s blog">Welcome to yrdm&#39;s blog</a></div>
+            <div class="nav-list">
+                <button> <span class=""></span><span style="display: block;"></span><span class=""></span> </button>
+                <ul class="layui-nav" lay-filter="">
+                    
+                        
+                        
+                        
+                        
+                    <li class="layui-nav-item">
+                        <a href="/ ">
+                            <i class=" fab fa-fort-awesome " style="color: rgb(255 107 107);"></i>
+                            <span class="layui-nav-item-name">Home</span>
+                        </a>
+                    </li>
+                    
+                        
+                        
+                        
+                        
+                    <li class="layui-nav-item">
+                        <a href="/archives/ ">
+                            <i class=" fas fa-archive " style="color: rgb(10 189 227);"></i>
+                            <span class="layui-nav-item-name">Archives</span>
+                        </a>
+                    </li>
+                    
+                        
+                        
+                        
+                        
+                    <li class="layui-nav-item">
+                        <a href="/tags/ ">
+                            <i class=" fas fa-hashtag " style="color: rgb(254 202 87);"></i>
+                            <span class="layui-nav-item-name">Tags</span>
+                        </a>
+                    </li>
+                    
+                        
+                        
+                        
+                        
+                    <li class="layui-nav-item">
+                        <a href="/categories ">
+                            <i class=" far fa-folder-open " style="color: rgb(29 209 161);"></i>
+                            <span class="layui-nav-item-name">Categories</span>
+                        </a>
+                    </li>
+                    
+                        
+                        
+                        
+                        
+                    <li class="layui-nav-item">
+                        <a href="/about/ ">
+                            <i class=" fab fa-grav " style="color: rgb(154 106 247);"></i>
+                            <span class="layui-nav-item-name">About</span>
+                        </a>
+                    </li>
+                    
+                    
+                        <li class="layui-nav-item" id="btn-toggle-dark">🌙</li>
+                    
+                    <span class="layui-nav-bar" style="left: 342px; top: 78px; width: 0px; opacity: 0;"></span>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+    
+<header class="header">
+        
+            <div class="logo">
+                    <a href="/"><img src="https://cdn.jsdelivr.net/gh/a2396837/CDN@latest/images/2020/07/27/baokemeng.webp" onerror=this.onerror=null,this.src="/img/loading.gif"></a>
+            </div>
+         
+    </div>
+     
+    
+            <div class="social">
+                
+                        <a class="social-icon" href="https://github.com/ALEX-YRDM" target="_blank" title="Github">
+                            <i class="iconfont icon-GitHub" aria-hidden="true"></i>
+                          </a>
+                 
+                        <a class="social-icon" href="mailto:bqzhang@stu.xidian.edu.cn" target="_blank" title="Email">
+                            <i class="iconfont icon-email" aria-hidden="true"></i>
+                          </a>
+                 
+            </div>
+     
+</header>
+
+    
+<article id="post">
+  <div class="post-title">manjaro Linux基本操作</div>
+  
+<div class="post-meta">
+    
+    
+      <div class="post-meta-item date">
+        <span title="Created 2023.05.29"><i class="far fa-calendar-alt"></i> 2023.05.29</span>
+      </div>
+      <div class="post-meta-item updated">
+        <span title="Updated 2023.05.29"><i class="far fa-calendar-check"></i> 2023.05.29</span>
+      </div>
+     
+    
+      <div class="post-meta-item categories">
+        
+          <i class="fas fa-inbox article-meta__icon"></i> <a href="/categories/Linux/">Linux</a>
+        
+      </div>
+     
+    
+     <div class="post-meta-item wordcount">
+        
+          <i class="fas fa-pencil-alt"></i> <span class="post-count">799 words</span>
+           
+        
+          <i class="far fa-clock"></i> <span class="post-count">3 min</span>
+                               
+      </div>
+     
+</div>
+
+
+  
+    <div id="toc" class="toc">
+          <h1>Toc</h1>
+          <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Manjaro-linux-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4"><span class="toc-number">1.</span> <span class="toc-text">Manjaro linux 常用命令</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85"><span class="toc-number">2.</span> <span class="toc-text">常用软件安装</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%8F%8C%E7%B3%BB%E7%BB%9Flinux%E5%BF%AB8%E5%B0%8F%E6%97%B6%E8%A7%A3%E5%86%B3"><span class="toc-number">3.</span> <span class="toc-text">双系统linux快8小时解决</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#windows%E5%B0%86%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A1%AC%E4%BB%B6%E6%97%B6%E9%97%B4RTC%E4%BD%9C%E4%B8%BA%E7%B3%BB%E7%BB%9F%E6%97%B6%E9%97%B4%EF%BC%8Clinux%E5%B0%86%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A1%AC%E4%BB%B6%E6%97%B6%E9%97%B4%E5%BD%93%E4%BD%9CUTC%EF%BC%8C%E5%8C%97%E4%BA%AC%E6%97%B6%E9%97%B4%E4%B8%BAUTC-8-%E6%89%80%E4%BB%A5%E5%BF%AB%E4%BA%868%E5%B0%8F%E6%97%B6"><span class="toc-number">3.1.</span> <span class="toc-text">windows将计算机硬件时间RTC作为系统时间，linux将计算机硬件时间当作UTC，北京时间为UTC+8,所以快了8小时</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B0%86%E7%B3%BB%E7%BB%9F%E6%97%B6%E9%97%B4%E8%AE%BE%E7%BD%AE%E4%B8%BARTC"><span class="toc-number">3.2.</span> <span class="toc-text">将系统时间设置为RTC</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%BC%80%E5%90%AF%E6%97%B6%E9%97%B4%E4%B8%8E%E8%BF%9C%E7%A8%8B%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%90%8C%E6%AD%A5"><span class="toc-number">3.3.</span> <span class="toc-text">开启时间与远程服务器同步</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%AE%89%E8%A3%85idea%E4%BB%A5%E5%8F%8A%E6%89%8B%E5%8A%A8%E5%AE%89%E8%A3%85jdk17"><span class="toc-number">4.</span> <span class="toc-text">安装idea以及手动安装jdk17</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%89%8B%E5%8A%A8%E5%AE%89%E8%A3%85jdk17%EF%BC%88%E5%9B%A0%E4%B8%BAjdk8%E8%BF%90%E8%A1%8C%E4%B8%8D%E4%BA%86idea2022-3-2%EF%BC%89"><span class="toc-number">4.1.</span> <span class="toc-text">手动安装jdk17（因为jdk8运行不了idea2022.3.2）</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%AE%89%E8%A3%85maven"><span class="toc-number">5.</span> <span class="toc-text">安装maven</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80-https-dlcdn-apache-org-maven-maven-3"><span class="toc-number">5.1.</span> <span class="toc-text">下载地址 !(https:&#x2F;&#x2F;dlcdn.apache.org&#x2F;maven&#x2F;maven-3&#x2F;)</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%89%8B%E5%8A%A8%E5%AE%89%E8%A3%85deb%E5%8C%85"><span class="toc-number">6.</span> <span class="toc-text">手动安装deb包</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%AE%89%E8%A3%85-anaconda"><span class="toc-number">7.</span> <span class="toc-text">安装 anaconda</span></a></li></ol>
+      </div>
+    
+  <div class="content">
+        <div><h1 id="Manjaro-linux-常用命令"><a href="#Manjaro-linux-常用命令" class="headerlink" title="Manjaro linux 常用命令"></a>Manjaro linux 常用命令</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 更换软件源</span></span><br><span class="line">sudo pacman-mirrors -m rank -c China</span><br><span class="line"></span><br><span class="line">sudo vim /etc/pacman.conf</span><br><span class="line"></span><br><span class="line">[archlinuxcn]</span><br><span class="line">SigLevel = Optional TrustedOnly</span><br><span class="line"><span class="comment">#阿里源</span></span><br><span class="line">Server = https://mirrors.aliyun.com/archlinuxcn/<span class="variable">$arch</span></span><br><span class="line"><span class="comment">#清华源</span></span><br><span class="line">Server = http://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/<span class="variable">$arch</span></span><br><span class="line"><span class="comment">#中科大源</span></span><br><span class="line">Server = https://mirrors.ustc.edu.cn/archlinuxcn/<span class="variable">$arch</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># yay包管理器</span></span><br><span class="line">sudo pacman -Sy yay</span><br><span class="line"></span><br><span class="line"><span class="comment"># 指定yay源</span></span><br><span class="line">yay --aururl <span class="string">&quot;https://mirrors.aliyun.com/archlinuxcn&quot;</span> --save</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># yay源配置文件</span></span><br><span class="line">~/.config/yay/config.json</span><br><span class="line"></span><br><span class="line"><span class="comment"># 解压缩 .gz文件</span></span><br><span class="line">gzip -d xxx.gz</span><br><span class="line"></span><br><span class="line"><span class="comment"># 压缩</span></span><br><span class="line">gzip xxx.xxx</span><br><span class="line"></span><br><span class="line"><span class="comment"># 远程连接访问服务器</span></span><br><span class="line">ssh username@ip</span><br><span class="line"></span><br><span class="line">&gt; ssh root@101.201.143.17</span><br><span class="line"></span><br><span class="line"><span class="comment"># 本地与服务器之间文件传输</span></span><br><span class="line"><span class="comment"># 1.本地拷贝文件到服务器</span></span><br><span class="line">scp local_file remote_username@remote_ip:remote_folder</span><br><span class="line">scp local_file remote_username@remote_ip:remote_file</span><br><span class="line"></span><br><span class="line"><span class="comment"># 2.本地拷贝文件夹到服务器</span></span><br><span class="line">scp -r local_folder remote_username@remote_ip:remote_folder</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># 3.从服务器拷贝文件到本地</span></span><br><span class="line">scp remote_username@ip:remote_file local_folder</span><br><span class="line"></span><br><span class="line"><span class="comment"># 4.从服务器拷贝文件夹到本地</span></span><br><span class="line">scp -r remote_username@ip:remote_folder local_folder</span><br><span class="line"></span><br><span class="line"><span class="comment"># 配置http代理以及取消</span></span><br><span class="line"><span class="built_in">export</span> http_proxy=http://127.0.0.1:7890</span><br><span class="line"><span class="built_in">export</span> https_proxy=http://127.0.0.1:7890</span><br><span class="line"></span><br><span class="line"><span class="built_in">unset</span> http_proxy</span><br><span class="line"><span class="built_in">unset</span> http_proxy</span><br><span class="line"></span><br><span class="line"><span class="comment"># 查看磁盘剩余</span></span><br><span class="line"><span class="built_in">df</span> -hl</span><br><span class="line"></span><br><span class="line"><span class="comment"># 查看进程</span></span><br><span class="line">ps -aux</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h1 id="常用软件安装"><a href="#常用软件安装" class="headerlink" title="常用软件安装"></a>常用软件安装</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 安装git</span></span><br><span class="line">sudo pacman -Sy git</span><br><span class="line"></span><br><span class="line"><span class="comment"># 安装linuxqq</span></span><br><span class="line">yay -S linuxqq</span><br><span class="line"></span><br><span class="line"><span class="comment"># 安装wehcat</span></span><br><span class="line">yay -S wehcat-uos</span><br><span class="line"></span><br><span class="line"><span class="comment"># vim编辑器</span></span><br><span class="line">sudo pacman -Sy vim</span><br><span class="line"></span><br><span class="line"><span class="comment"># google-chrome下载</span></span><br><span class="line">yay -Sy google-chrome</span><br><span class="line"></span><br><span class="line"><span class="comment"># 安装网易云音乐</span></span><br><span class="line">yay -Sy netease-cloud-music</span><br><span class="line"></span><br><span class="line"><span class="comment"># 安装vscode</span></span><br><span class="line">sudo pacman -Sy vscode</span><br><span class="line"></span><br><span class="line"><span class="comment"># 安装idea</span></span><br><span class="line">yay -S intellij-idea-ultimate-edition</span><br><span class="line"></span><br><span class="line"><span class="comment"># 安装pycharm</span></span><br><span class="line">yay -S pycharm-professional</span><br><span class="line"></span><br><span class="line"><span class="comment"># 安装 腾讯会议</span></span><br><span class="line">yay -S wemeet-bin</span><br><span class="line"></span><br><span class="line"><span class="comment"># 安装consolas字体</span></span><br><span class="line">yay -S consolas-font</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h1 id="双系统linux快8小时解决"><a href="#双系统linux快8小时解决" class="headerlink" title="双系统linux快8小时解决"></a>双系统linux快8小时解决</h1><h2 id="windows将计算机硬件时间RTC作为系统时间，linux将计算机硬件时间当作UTC，北京时间为UTC-8-所以快了8小时"><a href="#windows将计算机硬件时间RTC作为系统时间，linux将计算机硬件时间当作UTC，北京时间为UTC-8-所以快了8小时" class="headerlink" title="windows将计算机硬件时间RTC作为系统时间，linux将计算机硬件时间当作UTC，北京时间为UTC+8,所以快了8小时"></a>windows将计算机硬件时间RTC作为系统时间，linux将计算机硬件时间当作UTC，北京时间为UTC+8,所以快了8小时</h2><h2 id="将系统时间设置为RTC"><a href="#将系统时间设置为RTC" class="headerlink" title="将系统时间设置为RTC"></a>将系统时间设置为RTC</h2><blockquote>
+<p>timedatectl set-local-rtc 1</p>
+</blockquote>
+<h2 id="开启时间与远程服务器同步"><a href="#开启时间与远程服务器同步" class="headerlink" title="开启时间与远程服务器同步"></a>开启时间与远程服务器同步</h2><blockquote>
+<p>timedatectl set-ntp true</p>
+</blockquote>
+<h1 id="安装idea以及手动安装jdk17"><a href="#安装idea以及手动安装jdk17" class="headerlink" title="安装idea以及手动安装jdk17"></a>安装idea以及手动安装jdk17</h1><ul>
+<li>yay -S intellij-idea-ultimate-edition</li>
+</ul>
+<h2 id="手动安装jdk17（因为jdk8运行不了idea2022-3-2）"><a href="#手动安装jdk17（因为jdk8运行不了idea2022-3-2）" class="headerlink" title="手动安装jdk17（因为jdk8运行不了idea2022.3.2）"></a>手动安装jdk17（因为jdk8运行不了idea2022.3.2）</h2><ul>
+<li>官网下载 .tar.gz</li>
+<li>sudo mkdir &#x2F;usr&#x2F;lib&#x2F;jvm</li>
+<li>tar -zxvf xxx.tar.gz -C &#x2F;usr&#x2F;lib&#x2F;jvm</li>
+<li>sudo vim &#x2F;ect&#x2F;profile<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 末尾加上：</span></span><br><span class="line"><span class="built_in">export</span> JAVA_HOME=/usr/lib/jvm/jdk-17.0.6</span><br><span class="line"><span class="built_in">export</span> PATH=<span class="variable">$JAVA_HOME</span>/bin:<span class="variable">$PATH</span></span><br><span class="line"><span class="built_in">export</span> CLASSPATH=.:<span class="variable">$JAVA_HOME</span>/lib/</span><br></pre></td></tr></table></figure></li>
+<li>source &#x2F;etc&#x2F;profile<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 依次验证</span></span><br><span class="line">java -version</span><br><span class="line">java</span><br><span class="line">javac</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h1 id="安装maven"><a href="#安装maven" class="headerlink" title="安装maven"></a>安装maven</h1><h2 id="下载地址-https-dlcdn-apache-org-maven-maven-3"><a href="#下载地址-https-dlcdn-apache-org-maven-maven-3" class="headerlink" title="下载地址 !(https://dlcdn.apache.org/maven/maven-3/)"></a>下载地址 !(<a target="_blank" rel="noopener" href="https://dlcdn.apache.org/maven/maven-3/">https://dlcdn.apache.org/maven/maven-3/</a>)</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">sudo tar -zxvf xxx.tar.gz /opt/</span><br><span class="line"></span><br><span class="line"><span class="comment"># 添加环境变量</span></span><br><span class="line"><span class="built_in">export</span> MAVEN_HOME=/opt/apache-maven-3.6.3</span><br><span class="line"><span class="built_in">export</span> PATH=<span class="variable">$MAVEN_HOME</span>/bin:<span class="variable">$PATH</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 刷新</span></span><br><span class="line"><span class="built_in">source</span> /etc/profile</span><br><span class="line"></span><br><span class="line"><span class="comment"># 换源，将conf/setting.xml中mirror</span></span><br><span class="line">&lt;mirror&gt;</span><br><span class="line">    &lt;<span class="built_in">id</span>&gt;nexus-aliyun&lt;/id&gt;  </span><br><span class="line">    &lt;mirrorOf&gt;*,!jeecg,!jeecg-snapshots&lt;/mirrorOf&gt;  </span><br><span class="line">    &lt;name&gt;Nexus aliyun&lt;/name&gt;  </span><br><span class="line">    &lt;url&gt;http://maven.aliyun.com/nexus/content/groups/public&lt;/url&gt; </span><br><span class="line">&lt;/mirror&gt;</span><br><span class="line"></span><br><span class="line"><span class="comment"># 修改本地仓库位置</span></span><br><span class="line">&lt;localRepository&gt;/opt/apache-maven-3.6.3/localrepo&lt;/localRepository&gt;</span><br></pre></td></tr></table></figure>
+<h1 id="手动安装deb包"><a href="#手动安装deb包" class="headerlink" title="手动安装deb包"></a>手动安装deb包</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 安装debtap</span></span><br><span class="line">yay -S debtap</span><br><span class="line"></span><br><span class="line">sudo debtap xxx.deb</span><br><span class="line"></span><br><span class="line">sudo debtap -u</span><br><span class="line"></span><br><span class="line">sudo sed -i <span class="string">&quot;s|http://ftp.debian.org/debian/dists|https://mirrors.ustc.edu.cn/debian/dists|g&quot;</span> /usr/bin/debtap</span><br><span class="line"></span><br><span class="line">sudo sed -i <span class="string">&quot;s|http://archive.ubuntu.com/ubuntu/dists|https://mirrors.ustc.edu.cn/ubuntu/dists|g&quot;</span> /usr/bin/debtap</span><br><span class="line"></span><br><span class="line">sudo pacman -U xxx.tar.xz</span><br></pre></td></tr></table></figure>
+
+<h1 id="安装-anaconda"><a href="#安装-anaconda" class="headerlink" title="安装 anaconda"></a>安装 anaconda</h1><ul>
+<li>官方安装文档 !(<a target="_blank" rel="noopener" href="https://docs.anaconda.com/anaconda/install/linux/">https://docs.anaconda.com/anaconda/install/linux/</a>)<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 常用命令：</span></span><br><span class="line"><span class="comment"># 列出所有已创建的虚拟环境</span></span><br><span class="line">conda <span class="built_in">env</span> list </span><br><span class="line"></span><br><span class="line">conda -V</span><br><span class="line"></span><br><span class="line"><span class="comment"># 创建虚拟环境</span></span><br><span class="line">conda create -n 虚拟环境名 python=3.10(version)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 进入虚拟环境</span></span><br><span class="line">conda activate 虚拟环境名</span><br><span class="line"></span><br><span class="line"><span class="comment"># 推出虚拟环境</span></span><br><span class="line">conda deactivate</span><br><span class="line"></span><br><span class="line"><span class="comment"># 安装包</span></span><br><span class="line">conda install -n env_name [package]</span><br><span class="line"></span><br><span class="line"><span class="comment"># 删除虚拟环境</span></span><br><span class="line">conda remove -n env_name --all</span><br><span class="line"></span><br><span class="line"><span class="comment"># 删除环境中的某个包</span></span><br><span class="line">conda remove -n env_name [package]</span><br></pre></td></tr></table></figure></li>
+</ul>
+</div>
+        
+          <div class="post-copyright">
+                  <div class="copyright-item">
+                      <span> Author: yrdm</span>
+                  </div>
+                  <div class="copyright-item">
+                      <span> Link: <a href="https://alex-yrdm.github.io/2023/05/29/manjaro-common-command/">https://alex-yrdm.github.io/2023/05/29/manjaro-common-command/</a></span>
+                  </div>
+                  <div class="copyright-item">
+                      <span> License: 本博客所有文章除特别声明外，均采用许可协议 <a target="_blank" rel="noopener" href="http://creativecommons.org/licenses/by-nc/4.0/">CC-BY-NC-4.0</a> 转载请注明出处！</span>
+                  </div>
+          </div>
+        
+  </div>
+
+  <div class="share-reward">
+    <div class="share">
+        
+<div class="social-share" data-sites="facebook,twitter,wechat,weibo,qq"></div>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css">
+<script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js"></script>
+
+
+      </div>
+        <div class="reward">
+          
+  <div style="padding: 10px 0; margin-left: 20px; width: 90%; text-align: center;">
+    <div class="reward-content">
+        <ul id="donateBox" class="list pos-a">
+           
+          
+            <li id="AliPay" title="Alipay"><img data-img="/img/airpayqr.jpg" onerror=this.onerror=null,this.src="/img/loading.gif"></img></li>
+               
+                 
+            <li id="WeChat" title="Wechatpay"><img date-img="/img/wechatqr.jpg" onerror=this.onerror=null,this.src="/img/loading.gif"></img></li>
+                      
+          </ul>
+        <div id="QRBox" class="pos-f left-100">
+          <div id="MainBox"></div>
+        </div>
+    </div>
+  </div>
+  
+        </div>
+    </div>
+    
+    <div class="post_tags">
+      
+        <i class="fas fa-tag"></i> <a href="/tags/manjaro/" class="tag">manjaro</a>
+      
+    </div>
+    <div class="post-nav">
+      
+      
+        <div class="post-nav-next post-nav-item">
+            <a href="/2023/05/28/hello-world/" >Hello World<i class="fa fa-chevron-right"></i></a>
+        </div>
+      
+    </div>
+      
+
+
+
+
+</article>
+
+    
+<a id="gotop" href="javascript:" title="返回顶部"><i class="fa fa-arrow-up"></i></a>
+    
+
+
+
+
+
+
+    
+<div id="bottom-outer">
+    <div id="bottom-inner">
+        © 2020 <i class="fa fa-heart" id="heart"></i> yrdm 
+        <br>
+        Powered by 
+        <a target="_blank" rel="noopener" href="http://hexo.io">hexo</a> | Theme is <a target="_blank" rel="noopener" href="https://github.com/a2396837/hexo-theme-blank/">blank</a>
+        
+          <div class="icp-info">
+            
+          <a href="" target="_blank"> </a>
+        </div>
+        
+    </div>  
+  </div>
+  
+<script src="https://cdn.jsdelivr.net/npm/layui-src@2.5.5/dist/layui.min.js"></script>
+
+
+
+  
+    <script src="/js/script.js"></script>
+  
+    <script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script>
+  
+
+ 
+
+
+
+  <script>
+    window.lazyLoadOptions = {
+      elements_selector: 'img',
+      threshold: 0
+    }
+</script>
+<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js"></script>   
+  
+
+
+  <script>
+    var images = $('img').not('.nav-logo img').not('.card img').not($('a>img')).not('.reward-content img')
+    images.each(function (i, o) {
+      var lazyloadSrc = $(o).attr('data-src') ? $(o).attr('data-src') : $(o).attr('src')
+      $(o).wrap(`<a href="${lazyloadSrc}" data-fancybox="group" data-caption="${$(o).attr('alt')}" class="fancybox"></a>`)
+    })
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script>
+  <script>
+        $().fancybox({
+      selector: '[data-fancybox]',
+      loop: true,
+      transitionEffect: 'slide',
+      protect: true,
+      buttons: ['slideShow', 'fullScreen', 'thumbs', 'close']
+    })
+  </script>   
+  
+
+
+
+
+
+
+  <script>
+    jQuery(document).ready(function () {
+      var QRBox = $('#QRBox');
+      var MainBox = $('#MainBox');
+      var AliPayQR = '/img/airpayqr.jpg';
+      var WeChanQR = '/img/wechatqr.jpg';
+
+      function showQR(QR) {
+        if (QR) {
+          MainBox.css('background-image', 'url(' + QR + ')');
+        }
+        $('#donateBox').addClass('blur');
+        QRBox.fadeIn(300, function (argument) {
+          MainBox.addClass('showQR');
+        });
+      }
+
+      $('#donateBox>li').click(function (event) {
+        var thisID = $(this).attr('id');
+        if (thisID === 'AliPay') {
+          showQR(AliPayQR);
+        } else if (thisID === 'WeChat') {
+          showQR(WeChanQR);
+        }
+      });
+
+      MainBox.click(function (event) {
+        MainBox.removeClass('showQR').addClass('hideQR');
+        setTimeout(function (a) {
+          QRBox.fadeOut(300, function (argument) {
+            MainBox.removeClass('hideQR');
+          });
+          $('#DonateText,#donateBox,#github').removeClass('blur');
+        }, 600);
+
+      });
+    });
+  </script>
+  
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module" defer></script>
+  
+
+
+
+
+  
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js"></script>
+<script>
+!function (e, t, a) {
+  var initCopyCode = function(){
+    var copyHtml = '';
+    copyHtml += '<button class="btn-copy" data-clipboard-snippet="">';
+    copyHtml += '  <i class="fa fa-clipboard"></i><span>复制</span>';
+    copyHtml += '</button>';
+    $(".highlight .code pre").before(copyHtml);
+    new ClipboardJS('.btn-copy', {
+      target: function(trigger) {
+        return trigger.nextElementSibling;
+      }
+    });
+  }
+  initCopyCode();
+}(window, document);
+</script>  
+  
+
+<script>
+  var btntop = $('#gotop');
+  btntop.on('click', function (e) {
+    e.preventDefault();
+    $('html, body').animate({ scrollTop: 0 }, '300');
+  });
+
+  var $table = $('.content table').not($('figure.highlight > table'))
+$table.each(function () {
+  $(this).wrap('<div class="table-wrap"></div>')
+})
+</script>
+
+
+
+</html>

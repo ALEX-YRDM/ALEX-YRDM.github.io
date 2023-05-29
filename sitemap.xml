@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://alex-yrdm.github.io/about/index.html</loc>
-    
-    <lastmod>2023-05-29</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://alex-yrdm.github.io/categories/index.html</loc>
     
     <lastmod>2023-05-29</lastmod>
@@ -21,6 +12,24 @@
   
   <url>
     <loc>https://alex-yrdm.github.io/tags/index.html</loc>
+    
+    <lastmod>2023-05-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://alex-yrdm.github.io/2023/05/29/manjaro-common-command/</loc>
+    
+    <lastmod>2023-05-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://alex-yrdm.github.io/about/index.html</loc>
     
     <lastmod>2023-05-29</lastmod>
     
@@ -46,6 +55,20 @@
   </url>
 
   
+  <url>
+    <loc>https://alex-yrdm.github.io/tags/manjaro/</loc>
+    <lastmod>2023-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
+  
+  <url>
+    <loc>https://alex-yrdm.github.io/categories/Linux/</loc>
+    <lastmod>2023-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 </urlset>

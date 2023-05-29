@@ -1,5 +1,8 @@
-https://alex-yrdm.github.io/about/index.html
 https://alex-yrdm.github.io/categories/index.html
 https://alex-yrdm.github.io/tags/index.html
+https://alex-yrdm.github.io/2023/05/29/manjaro-common-command/
+https://alex-yrdm.github.io/about/index.html
 https://alex-yrdm.github.io/2023/05/28/hello-world/
 https://alex-yrdm.github.io/
+https://alex-yrdm.github.io/tags/manjaro/
+https://alex-yrdm.github.io/categories/Linux/
