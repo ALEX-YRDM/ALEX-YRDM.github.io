@@ -1,2 +1,5 @@
+https://alex-yrdm.github.io/about/index.html
+https://alex-yrdm.github.io/categories/index.html
+https://alex-yrdm.github.io/tags/index.html
 https://alex-yrdm.github.io/2023/05/28/hello-world/
 https://alex-yrdm.github.io/
